@@ -94,13 +94,28 @@ section.inicio .flex{
 }
 
 .inicio .txt-inicio p{
-    margin: 40px 0;
+    margin: 10px 0;
     font-size: 1.3rem;
 }
+
+.inicio .txt-inicio .separo h1{
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.inicio .txt-inicio .separo p{
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+
 
  .img-inicio img{
     width: 600px;
     border-radius: 25px;
+}
+
+.inicio .txt-inicio .separo{
+    margin: 60px 0;
 }
 
 /*faixa*/
@@ -135,7 +150,7 @@ section .projeto .interface .flex{
 
 .img-cel img{
     width: 300px;
-    border-radius: 25px;
+    border-radius: 50px;
 }
 
 .projeto .txt-projeto h1{
