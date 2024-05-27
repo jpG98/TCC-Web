@@ -12,7 +12,7 @@
 body{
     background-color: #98CCAB;
     color: white;
-    font-family: rubikmonoregular;
+    font-family: "Rubik";
     height: 100vh;
     margin: 0 auto;
 }
@@ -132,7 +132,7 @@ section.inicio .flex{
     background: linear-gradient(#417554, #98CCAB);
 }
 
-.funto2{
+.fundo2{
     width: 100%;
     background-color: #417554;
 }
