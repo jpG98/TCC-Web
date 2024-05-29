@@ -71,14 +71,14 @@ header .logo{
 
 .img img{
     width: 100%;
-
+    box-shadow: 0 0.3rem 1rem #5f9271;
 }
 
 
 /*Inicio*/
 
 section.inicio{
-    padding: 80px 0px;
+    margin-top: 80px;
 }
 
 section.inicio .flex{
@@ -122,13 +122,13 @@ section.inicio .flex{
 
 .faixa{
     width: 100%;
-    height: 200px;
+    height: 100px;
     background: linear-gradient(#98CCAB, #417554);
 }
 
 .faixa2{
     width: 100%;
-    height: 200px;
+    height: 100px;
     background: linear-gradient(#417554, #98CCAB);
 }
 
@@ -140,7 +140,7 @@ section.inicio .flex{
 /*Projeto*/
 
 section .projeto{
-    padding: 80px 0px;
+    padding: 10px 0px;
 }
 
 section .projeto .interface .flex{
@@ -178,7 +178,7 @@ section .projeto .interface .flex{
 /*app*/
 
 section .app{
-    padding: 80px 0px;
+    padding: 10px 0px;
 }
 
 section .app .interface .flex{
@@ -206,8 +206,7 @@ section .app .interface .flex{
 /*integrantes*/
 
 section .integrantes{
-    padding: 80px 0px;
-    
+    margin-top: 20px;
 }
 
 section .interface .flex1{
