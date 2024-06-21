@@ -122,13 +122,13 @@ section.inicio .flex{
 .faixa{
     width: 100%;
     height: 50px;
-    background: linear-gradient(#F3FBFF, #59baeb);
+    background: linear-gradient(#92c6e0, #59baeb);
 }
 
 .faixa2{
     width: 100%;
     height: 50px;
-    background: linear-gradient(#59baeb, #F3FBFF);
+    background: linear-gradient(#59baeb, #a6cfe4);
 }
 
 .fundo2{
