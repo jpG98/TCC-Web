@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ValeAcess</title>
-  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-</head>
-<body>
+<?php include("blades/top.php"); ?>
+
   <header>
     <div class="navigation">
       <div class="logo">
@@ -29,7 +16,7 @@
     </div>
   </header>
   <div class="img" id="top">
-    <img src="componests/imagens/img-header.png" alt="">
+    <img src="../componests/imagens/img-header.png" alt="">
   </div>
   
   <div id="link-ini"></div>
@@ -48,7 +35,7 @@
           </div>
           </div>
           <div class="img-inicio">
-            <img src="componests/imagens/imagemhome.png">
+            <img src="../componests/imagens/imagemhome.png">
           </div>
         </div>
       </div>
@@ -65,7 +52,7 @@
         <div class="interface">
           <div class="flex">
             <div class="img-cel">
-              <img src="componests/imagens/cel.png">
+              <img src="../componests/imagens/cel.png">
             </div>
               <div class="txt-projeto">
                 <h1>Projeto</h1>
@@ -74,10 +61,10 @@
               </div>
               <div class="separo">
                 <div class="img-projeto">
-                  <img src="componests/imagens/LOGO_ACESSIBILIDADE_-_AGOSTO_2015.jpg">
+                  <img src="../componests/imagens/LOGO_ACESSIBILIDADE_-_AGOSTO_2015.jpg">
                 </div>
                 <div class="img-projeto">
-                  <img src="componests/imagens/acessibilidade.png">
+                  <img src="../componests/imagens/acessibilidade.png">
                 </div>
             </div>
           </div>
@@ -109,7 +96,7 @@
               </div>
             </div>
             <div class="QRcode">
-              <img src="componests/imagens/qr.png">
+              <img src="../componests/imagens/qr.png">
             </div>
           </div>
         </div>
@@ -124,7 +111,7 @@
             <div class="um">
             <div class="integrantes-box-1">
               <div class="img-fundo">
-                <img src="componests/imagens/fundo-jota-2.png">
+                <img src="../componests/imagens/fundo-jota-2.png">
               </div>
               <h3>João Gustavo Apolinario Cruz</h3>
               <div class="integrantes-rede-social">
@@ -141,7 +128,7 @@
           </div>
             <div class="integrantes-box-2">
               <div class="img-fundo">
-                <img src="componests/imagens/fundo-ana.png">
+                <img src="../componests/imagens/fundo-ana.png">
               </div>
               <h3>Ana Jullia Antunes Carvalho</h3>
               <div class="integrantes-rede-social">
@@ -157,7 +144,7 @@
             </div>
             <div class="integrantes-box-3">
               <div class="img-fundo">
-                <img src="componests/imagens/fundo-juninho.png">
+                <img src="../componests/imagens/fundo-juninho.png">
               </div>
               <h3>Amauri Martins De Oliveira Junior</h3>
               <div class="integrantes-rede-social">
@@ -177,5 +164,4 @@
     </section>
   </main>
 
-</body>
-</html>
+  <?php include("blades/footer.php"); ?>
