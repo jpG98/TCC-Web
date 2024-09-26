@@ -1,6 +1,22 @@
 <?php include("blades/top_denuncia.php"); ?>
 <?php include("../controller/funcao-read-aluno-tab.php"); ?>
 
+<header>
+    <div class="navigation">
+        <div class="logo">
+            <a href="./index.php">ValeAcess</a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#link-ini">Sobre nós</a></li>
+                <li><a href="#link-proj">Projeto</a></li>
+                <li><a href="#link-app">Aplicativo</a></li>
+                <li><a href="#integrantes">Integrantes</a></li>
+                <li><a href="./denuncia.php">Denúncias</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 <div class="container mt-5">
 </div>
