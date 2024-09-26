@@ -3,7 +3,7 @@
 <header>
     <div class="navigation">
         <div class="logo">
-            <a href="#top">ValeAcess</a>
+            <a href="./index.php">ValeAcess</a>
         </div>
         <nav class="menu">
             <ul>
