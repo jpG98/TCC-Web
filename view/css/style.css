@@ -87,6 +87,12 @@ header {
     transform: scale(1.05);
 }
 
+.red:hover {
+    color: #ff0000 !important;
+    border-bottom: 2px solid #ff0000 !important;
+    transform: scale(1.05);
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .menu ul {

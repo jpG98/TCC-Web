@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    background-color: #F3FBFF;
+    color: black;
+    font-family: "Rubik";
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.interface{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/*Estilo do Header*/
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #F3FBFF;
+    box-shadow: 0 0.5rem 1rem rgba(181, 224, 245, 0.5);
+    padding: 15px 30px;
+    display: flex;
+    transition: background-color 0.3s ease;
+}
+
+/* Container de navegação */
+.navigation {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between; /* Modificado para afastar logo e menu */
+    align-items: center;
+}
+
+/* Logo */
+.logo a {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.logo a:hover {
+    color: #0077b6;
+}
+
+/* Menu de Navegação */
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+/* Estilo dos links de navegação */
+.menu ul li {
+    font-size: 1.3rem;
+}
+
+.menu ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif;
+}
+
+.menu ul li a:hover {
+    color: #0077b6;
+    border-bottom: 2px solid #0077b6;
+    transform: scale(1.05);
+}
+
+.red:hover {
+    color: #ff0000 !important;
+    border-bottom: 2px solid #ff0000 !important;
+    transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        background-color: #f3fbff;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        display: none;
+        text-align: center;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+
+    .menu ul.show {
+        display: flex;
+    }
+
+    .navigation {
+        justify-content: space-between;
+    }
+}
+
+/* Estilo do Menu Toggle em Telas Menores */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+}
+
+.text {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}

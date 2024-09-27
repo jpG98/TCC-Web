@@ -1,14 +1,15 @@
 <?php
     function funcaoTabela(){
         include("../model/connect.php");
-        $query = mysqli_query($conexao,"SELECT * FROM alunos ORDER BY Aluno_Codigo DESC");
+        $query = mysqli_query($conexao,"SELECT * FROM denuncia ORDER BY denuncia_id DESC");
             while($exibe = mysqli_fetch_array($query)){
             echo "<tr>
                     <td class='text-center'>$exibe[0]</td>
-                    <td class='text-center'><img src='imgs/$exibe[1]' width='100px'></td>
+                    <td class='text-center'>$exibe[1]</td>
                     <td class='text-center'>$exibe[2]</td>
-                    <td class='text-center'>$exibe[3]</td>
-                    <td class='text-center'>$exibe[4]</td>
+                    <td class='text-center'><img src='imgs/$exibe[4]' width='100px'></td>
+                    <td class='text-center'>$exibe[5]</td>
+
                 </tr>";       
             }
     }   

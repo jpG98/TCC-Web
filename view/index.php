@@ -3,7 +3,7 @@
 <header>
     <div class="navigation">
         <div class="logo">
-            <a href="#top">ValeAcess</a>
+            <a href="./index.php">ValeAcess</a>
         </div>
         <nav class="menu">
             <ul>
@@ -11,7 +11,7 @@
                 <li><a href="#link-proj">Projeto</a></li>
                 <li><a href="#link-app">Aplicativo</a></li>
                 <li><a href="#integrantes">Integrantes</a></li>
-                <li><a href="./denuncia.php">Denúncias</a></li>
+                <li><a class="red" href="./denuncia.php">Denúncias</a></li>
             </ul>
         </nav>
     </div>
@@ -20,15 +20,13 @@
     <div class="banner" id="top">
         <div class="banner-content">
             <h1>ValeAcess</h1>
-            <p>Para um vale mais acessível</p>
+            <p>Para um vale mais acessível</p> 
+            <div id="link-ini"></div>
         </div>
-    </div>  
-  
-  <div id="link-ini"></div>
+    </div>   
   <br>
 
-  <main>
-    
+  <main>   
   <section class="inicio">
     <div class="interface">
         <div class="flex">
@@ -126,7 +124,7 @@
                     <div class="integrante">
                         <div class="integrante-conteudo">
                             <div class="integrante-info">
-                                <p>Designer<br>Dev Mobile</p>
+                                <p>Designer<br>Dev Desktop</p>
                             </div>
                             <h3>Amauri</h3>
                             <div class="integrantes-rede-social">
