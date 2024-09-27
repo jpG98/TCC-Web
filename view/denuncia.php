@@ -27,7 +27,7 @@
             <th class="text-center">Visual</th>
             <th class="text-center">Fisica</th>
             <th class="text-center">Auditiva</th>
-            <th class="text-center">Foto do restaurande</th>
+            <th class="text-center">Foto do restaurante</th>
             <th class="text-center">Feedback</th>
         </tr>
     </thead>
