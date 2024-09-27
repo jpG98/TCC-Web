@@ -19,7 +19,7 @@
 
 
 <div class="container mt-5">
-<h2 class="text">As denuncias mais recentes</h2>
+<h2 class="text">Denúncias mais recentes</h2>
 <div class="container mt-2 bg-white p-3 rounded">
 <table class="table table-bordered table-hover table-striped">
     <thead>
@@ -27,7 +27,7 @@
             <th class="text-center">Visual</th>
             <th class="text-center">Fisica</th>
             <th class="text-center">Auditiva</th>
-            <th class="text-center">Foto do restaurante</th>
+            <th class="text-center">Foto da denúncia</th>
             <th class="text-center">Feedback</th>
         </tr>
     </thead>
