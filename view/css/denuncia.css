@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
     margin: 0;
     padding: 0;
@@ -24,8 +24,6 @@ body{
 
 /*Estilo do Header*/
 
-=======
->>>>>>> 311689079224721d35de2cd46ac48e6f1f4e4bc5
 header {
     width: 100%;
     position: fixed;
@@ -89,15 +87,12 @@ header {
     transform: scale(1.05);
 }
 
-<<<<<<< HEAD
 .red:hover {
     color: #ff0000 !important;
     border-bottom: 2px solid #ff0000 !important;
     transform: scale(1.05);
 }
 
-=======
->>>>>>> 311689079224721d35de2cd46ac48e6f1f4e4bc5
 /* Responsividade */
 @media (max-width: 768px) {
     .menu ul {
@@ -124,10 +119,6 @@ header {
     }
 }
 
-<<<<<<< HEAD
-/* Estilo do Menu Toggle em Telas Menores */
-=======
->>>>>>> 311689079224721d35de2cd46ac48e6f1f4e4bc5
 .menu-toggle {
     display: none;
     cursor: pointer;
@@ -140,7 +131,6 @@ header {
         display: block;
     }
 }
-<<<<<<< HEAD
 
 .text {
     font-size: 2rem;
@@ -148,5 +138,4 @@ header {
     margin-bottom: 20px;
     text-align: center;
 }
-=======
->>>>>>> 311689079224721d35de2cd46ac48e6f1f4e4bc5
+
