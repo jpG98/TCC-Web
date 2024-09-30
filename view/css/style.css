@@ -181,7 +181,7 @@ header {
 .banner {
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 500px;
     background-image: url('../../componests/imagens/img-header.png');
     background-size: cover;
     margin-top: 70px; 
@@ -189,30 +189,35 @@ header {
 
 .banner-content {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 10%;
     transform: translateY(-50%);
     color: white;
 }
 
 .banner h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
 }
 
 .banner p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
-/*Inicio*/
+/*sobrenos*/
 
-section.inicio {
-    margin-top: 10px;
+.link-sobrenos{
+    position: absolute;
+    margin-top: -90px;
+}
+
+section.sobrenos {
+    margin-top: 0px;
     padding: 20px;
-    background-color: #F3FBFF;
+    background-color: #C3DAE8;
 }
 
-section.inicio .flex {
+section.sobrenos .flex {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -222,12 +227,12 @@ section.inicio .flex {
     margin: 0 auto;
 }
 
-.inicio .txt-inicio {
+.sobrenos .txt-sobrenos {
     flex: 1;
     min-width: 300px;
 }
 
-.inicio .txt-inicio h1 {
+.sobrenos .txt-sobrenos h1 {
     font-size: 2.6rem; 
     text-align: left;
     margin-bottom: 20px;
@@ -235,27 +240,25 @@ section.inicio .flex {
 
 }
 
-.inicio .txt-inicio p {
+.sobrenos .txt-sobrenos p {
     font-size: 1.3rem;
     text-align: justify; 
     margin-bottom: 20px;
-    text-align: center;
-
 }
 
 
-.inicio .txt-inicio .separo {
+.sobrenos .txt-sobrenos .separo {
     margin-top: 40px;
 }
 
-.img-inicio {
+.img-sobrenos {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.img-inicio img {
+.img-sobrenos img {
     width: 100%;
     margin-left: 200px;
     max-width: 400px;
@@ -263,110 +266,191 @@ section.inicio .flex {
 }
 
 @media (max-width: 768px) {
-    .section.inicio .flex {
+    .section.sobrenos .flex {
         flex-direction: column;
         gap: 30px; 
     }
 
-    .inicio .txt-inicio h1,
-    .inicio .txt-inicio .separo h1 {
+    .sobrenos .txt-sobrenos h1,
+    .sobrenos .txt-sobrenos .separo h1 {
         font-size: 2rem; 
     }
 
-    .inicio .txt-inicio p,
-    .inicio .txt-inicio .separo p {
+    .sobrenos .txt-sobrenos p,
+    .sobrenos .txt-sobrenos .separo p {
         font-size: 1rem;
     }
 }
 
 /*info*/
 
+.link-info{
+    position: absolute;
+    margin-top: 430px ;
+}
+
+
 .info {
-    margin-top: 10px;
+    margin-top: 0px;
     padding: 20px;
-    background-color: #F3FBFF;
+    background-color: #ECECEC;
 }
 
 .info .flex {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start; /* Alinhar o conteúdo ao topo */
     justify-content: space-between;
-    gap: 50px; 
+    gap: 50px;
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.info .txt-info {
-    flex: 1;
-    min-width: 300px;
+.img-info img {
+    border-radius: 20px; 
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    width: 450px;
 }
 
-.info .txt-info2 {
+.txt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    flex: 1;
+}
+
+.txt-info {
     flex: 1;
     min-width: 300px;
 }
 
 .info h1 {
     font-size: 2.6rem; 
-    text-align: left;
-    margin-bottom: 20px;
     text-align: center;
-
+    margin-bottom: 20px;
 }
 
 .info .txt-info p {
-    font-size: 1.3rem;
-    text-align: justify; 
+    font-size: 1.5rem;
+    text-align: justify;
     margin-bottom: 20px;
+    line-height: 1.4;
 }
 
-.info .txt-info2 p {
-    font-size: 1.3rem;
-    text-align: justify; 
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-
-.info .nada{
-    width: 100%;
-    max-width: 550px;
-}
-
-.info h1{
-    font-size: 2.6rem; 
-    text-align: left;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.info .txt-info .separo {
-    margin-top: 40px;
+.info .txt-info1 p {
+    font-size: 1.6rem;
+    text-align: justify;
 }
 
 @media (max-width: 768px) {
     .info .flex {
         flex-direction: column;
-        gap: 30px; 
+        gap: 30px;
     }
 
-    .info .txt-info h1,
-    .info .txt-info .separo h1 {
-        font-size: 2rem; 
+    .info h1 {
+        font-size: 2rem;
     }
 
-    .info .txt-info p,
-    .info .txt-info .separo p {
-        font-size: 1rem;
+    .info .txt-info p {
+        font-size: 1.2rem;
+    }
+
+    .img-info img {
+        width: 100%;
     }
 }
+
+/*materias*/
+
+.link-materias {
+    position: absolute;
+    margin-top: -90px;
+}
+
+.materias-box {
+    background-color: #A5BFBA;
+    width: 332px;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.materias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.materias-conteudo {
+    margin-bottom: 20px;
+}
+
+.materias-info p {
+    font-size: 1.2rem;
+    text-align: justify;
+    text-align: center;
+}
+
+.materias-info h3{
+    font-size: 1.4rem; 
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+
+/*objetivo projeto*/
+
+.link-obproj {
+    position: absolute;
+    margin-top: -90px;
+}
+
+.obprojeto{
+    margin-top: 0px;
+    padding: 20px;
+    background-color: #C3DAE8;
+    width: 100%;
+    height: 300px;
+}
+
+.obprojeto .txt-ob{
+    margin-top: 3%;
+}
+
+.obprojeto .txt-ob h1{
+    font-size: 2.6rem; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.obprojeto .txt-ob p{
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
 
 /* Faixa */
 .faixa {
     width: 100%;
     height: 80px;
-    background: linear-gradient(#92c6e0, #59baeb);
+    background: linear-gradient(#c6d9e4, #59baeb);
 }
 
 .faixa2 {

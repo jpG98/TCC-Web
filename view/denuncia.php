@@ -14,9 +14,7 @@
         </nav>
     </div>
 </header>
-
 <br><br><br><br>
-
 
 <div class="container mt-5">
         <h2 class="text">Denúncias mais recentes</h2>
@@ -43,5 +41,12 @@
         </table>
     </div>
 </div>
+
+
+
+
+
+
+
 
 <?php include("blades/footer.php"); ?>
