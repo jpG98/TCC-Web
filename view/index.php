@@ -6,16 +6,23 @@
             <a href="./index.php">ValeAcess</a>
         </div>
         <nav class="menu">
-            <ul>
-                <li><a href="#link-ini">Sobre nós</a></li>
-                <li><a href="#link-proj">Projeto</a></li>
-                <li><a href="#link-app">Aplicativo</a></li>
+            <ul>                
+
                 <li><a href="#integrantes">Integrantes</a></li>
                 <li><a class="red" href="./denuncia.php">Denúncias</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Nosso projeto</a>
+                    <div class="dropdown-content">                    
+                    <a href="#link-ini">Sobre nós</a>
+                    <a href="#link-proj">Projeto</a>
+                    <a href="#link-app">Aplicativo</a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </div>
 </header>
+
 
     <div class="banner" id="top">
         <div class="banner-content">
@@ -48,11 +55,63 @@
         </div>
     </div>
 </section>
+
+<section>
+     <div class="info" id="info">
+        <div class="interface">                
+            <h1>Acessibilidade</h1>
+            <div class="flex">
+                <div class="txt-info">
+                    <h1>Visual</h1>
+                    <p>
+                        A promoção da acessibilidade física e social na região do Vale do Ribeira através de um sistema de avaliação dos estabelecimentos comerciais frequentados pelo público.
+                    </p>
+                </div>
+                <div class="nada"></div>
+                <div class="nada"></div>
+                <div class="txt-info">
+                     <h1>Auditiva</h1>
+                    <p>
+                        Somos um projeto criado com um objetivo: promover a inclusão física e social na nossa região, o Vale do Ribeira. Temos muito orgulho da região e acreditamos que ela tem potencial para ser exemplo em mais esse tópico.
+                    </p>
+                </div>
+                <div class="txt-info">
+                    <h1>Fisica</h1>
+                    <p>
+                        A promoção da acessibilidade física e social na região do Vale do Ribeira através de um sistema de avaliação dos estabelecimentos comerciais frequentados pelo público.
+                    </p>
+                </div>
+                <div class="nada"></div>
+
+
+
+                <div class="txt-info2">
+                     <h1>Como ajudar</h1>
+                    <p>
+                        Somos um projeto criado com um objetivo: promover a inclusão física e social na nossa região, o Vale do Ribeira. Temos muito orgulho da região e acreditamos que ela tem potencial para ser exemplo em mais esse tópico.
+                    </p>
+                </div>
+                <div class="txt-info2">
+                    <h1>O por que isso ocorre</h1>
+                    <p>
+                        A promoção da acessibilidade física e social na região do Vale do Ribeira através de um sistema de avaliação dos estabelecimentos comerciais frequentados pelo público.
+                    </p>
+                </div> 
+                <div class="txt-info2">
+                     <h1>No vale</h1>
+                    <p>
+                        Somos um projeto criado com um objetivo: promover a inclusão física e social na nossa região, o Vale do Ribeira. Temos muito orgulho da região e acreditamos que ela tem potencial para ser exemplo em mais esse tópico.
+                    </p>
+                </div>
+            </div>
+        </div>
+     </div>
+</section>
+
 <br>
 <div class="faixa">
     <div id="link-proj"></div>
 </div>
-
 <div class="fundo2">
     <section>
         <div class="projeto">
@@ -74,22 +133,13 @@
                         <img src="../componests/imagens/cel.png" alt="Imagem de celular">
                     </div>
                 </div>
-                <div class="separo">
-                    <div class="img-projeto">
-                        <img src="../componests/imagens/LOGO_ACESSIBILIDADE_-_AGOSTO_2015.jpg" alt="Logo Acessibilidade">
-                    </div>
-                    <div class="img-projeto">
-                        <img src="../componests/imagens/acessibilidade.png" alt="Ícone de Acessibilidade">
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 </div>
-
     <div id="link-app"></div>
     <div class="faixa2"></div>
-
 <section>
     <div class="app">
         <div class="interface">
@@ -184,7 +234,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
