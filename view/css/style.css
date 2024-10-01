@@ -190,34 +190,21 @@ header {
 
 .banner-content {
     position: absolute;
-    top: 15%;
-    left: 40%;
+    top: 45%;
+    left: 65%;
     transform: translateY(-50%);
     color: white;
     text-align: center;
 }
 
-.banner-content-1 {
-    position: absolute;
-    top: 40%;
-    left: 25%;
-    transform: translateY(-50%);
-    color: white;
-    width: 1000px;
-    text-align: center;
-}
 
 .banner h1 {
-    font-size: 3.5rem;
+    font-size: 6rem;
     font-weight: bold;
 }
 
 .banner p {
     font-size: 2rem;
-}
-
-.banner-content-1 p {
-    font-size: 1.8rem;
 }
 
 /*sobrenos*/
