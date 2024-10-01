@@ -85,7 +85,7 @@
                     <div class="materias">
                         <div class="materias-conteudo">
                             <div class="materias-info">
-                              <h3>Acessibilidade atitudinal</h3>
+                              <h3>Acessibilidade <br> atitudinal</h3>
                               <p>Diz respeito ao comportamento das pessoas sem preconceitos, estereótipos, estigmas e discriminações. Por exemplo: usar o termo “pessoa com deficiência”, e não “deficiente”; ao falar com uma pessoa com deficiência, dirigir-se diretamente a ela, e não ao seu acompanhante; não tratar a pessoa com deficiência como “coitadinho”.</p>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                         <div class="materias-conteudo">
                             <div class="materias-info">
                             <h3>Acessibilidade nas comunicações</h3>
-                            <p>Diz respeito ao acesso à comunicação interpessoal (como língua de sinais), comunicação escrita em livros, apostilas, jornais, revistas e comunicação virtual. Exemplo: a presença de intérprete de Libras e a audiodescrição de imagens, sejam elas fotografias, filmes, peças de teatro ou eventos em geral. .</p>
+                            <p>Diz respeito ao acesso à comunicação interpessoal (como língua de sinais), comunicação escrita em livros, apostilas, jornais, revistas e comunicação virtual. Exemplo: a presença de intérprete de Libras e a audiodescrição de imagens, sejam elas fotografias, filmes, peças de teatro ou eventos em geral.</p>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
         </div>
     </div>
 </section>
-<br>
+<br><br>
 
 <section class="sobrenos">
     <div class="link-sobrenos" id="sobrenos"></div>
@@ -187,6 +187,7 @@
         </div>
     </div>
 </section>
+
 <div class="faixa">
     <div id="proj"></div>
 </div>

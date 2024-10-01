@@ -6,11 +6,11 @@
             echo 
                 "<tr>
                     <td class='text-center'><img src='imgs/$exibe[0]' width='150px'></td>
+                    <td class='text-center'>$exibe[5]</td>
                     <td class='text-center'>$exibe[1]</td>
                     <td class='text-center'>$exibe[2]</td>
                     <td class='text-center'>$exibe[3]</td>
                     <td class='text-center'>$exibe[4]</td>
-                    <td class='text-center'>$exibe[5]</td>
                 </tr>";       
             }
     }   

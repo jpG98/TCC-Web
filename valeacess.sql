@@ -21,11 +21,11 @@ USE `valeacess`;
 
 -- Copiando estrutura para tabela valeacess.avaliacao
 CREATE TABLE IF NOT EXISTS `avaliacao` (
-  `avalia_visual` int(1) NOT NULL,
-  `avalia_fisica` int(1) NOT NULL,
-  `avalia_auditiva` int(1) NOT NULL,
+  `avalia_visual` int(1) DEFAULT NULL,
+  `avalia_fisica` int(1) DEFAULT NULL,
+  `avalia_auditiva` int(1) DEFAULT NULL,
   `avalia_id` int(11) NOT NULL AUTO_INCREMENT,
-  `feedback` text NOT NULL,
+  `feedback` text DEFAULT NULL,
   `usuario_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`avalia_id`),
   KEY `usuario_id` (`usuario_id`),
@@ -36,42 +36,42 @@ CREATE TABLE IF NOT EXISTS `avaliacao` (
 
 -- Copiando estrutura para tabela valeacess.comercio
 CREATE TABLE IF NOT EXISTS `comercio` (
-  `cnpj` varchar(18) NOT NULL,
+  `cnpj` varchar(18) DEFAULT NULL,
   `comercio_id` int(11) NOT NULL AUTO_INCREMENT,
-  `nome` varchar(250) NOT NULL,
-  `cidade` varchar(250) NOT NULL,
-  `rua` varchar(250) NOT NULL,
-  `numero` int(11) NOT NULL,
-  `categoria` varchar(250) NOT NULL,
-  `imagemp` blob NOT NULL,
-  `latitude` int(11) DEFAULT NULL,
-  `longitude` int(11) DEFAULT NULL,
+  `nome` varchar(250) DEFAULT NULL,
+  `cidade` varchar(250) DEFAULT NULL,
+  `rua` varchar(250) DEFAULT NULL,
+  `numero` int(11) DEFAULT NULL,
+  `categoria` varchar(250) DEFAULT NULL,
+  `imagemp` blob DEFAULT NULL,
   PRIMARY KEY (`comercio_id`),
-  UNIQUE KEY `cnpj` (`cnpj`)
+  UNIQUE KEY `cnpj` (`cnpj`),
+  KEY `nome` (`nome`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- Exportação de dados foi desmarcado.
 
 -- Copiando estrutura para tabela valeacess.denuncia
 CREATE TABLE IF NOT EXISTS `denuncia` (
-  `avalia_visual_d` int(1) NOT NULL,
-  `avalia_fisica_d` int(1) NOT NULL,
-  `avalia_auditiva_d` int(1) NOT NULL,
+  `avalia_visual_d` int(1) DEFAULT NULL,
+  `avalia_fisica_d` int(1) DEFAULT NULL,
+  `avalia_auditiva_d` int(1) DEFAULT NULL,
   `denuncia_id` int(11) NOT NULL AUTO_INCREMENT,
-  `imagem_d` blob NOT NULL,
-  `feedback` text NOT NULL,
-  `usuario_id_d` int(11) NOT NULL,
+  `imagem_d` blob DEFAULT NULL,
+  `feedback` text DEFAULT NULL,
+  `usuario_id_d` int(11) DEFAULT NULL,
+  `comercio_id_d` int(11) DEFAULT NULL,
   PRIMARY KEY (`denuncia_id`),
   KEY `usuario_id_d` (`usuario_id_d`),
-  CONSTRAINT `usuario_id_d` FOREIGN KEY (`usuario_id_d`) REFERENCES `usuario` (`usuario_id`)
+  KEY `comercio_id` (`comercio_id_d`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- Exportação de dados foi desmarcado.
 
 -- Copiando estrutura para tabela valeacess.usuario
 CREATE TABLE IF NOT EXISTS `usuario` (
-  `cpf` varchar(14) NOT NULL,
-  `nome` varchar(100) NOT NULL,
+  `cpf` varchar(14) DEFAULT NULL,
+  `nome` varchar(100) DEFAULT NULL,
   `deficiencia` varchar(100) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
   `senha` varchar(100) DEFAULT NULL,
