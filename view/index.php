@@ -29,19 +29,20 @@
     </div>
 </header>
 
-
     <div class="banner">
         <div class="banner-content">
             <h1>ValeAcess</h1>
             <p>Para um vale mais acessível</p> 
-
-        </div>            
-        <div class="link-info" id="info"></div>
+        </div>
+        <div class="banner-content-1">
+            <p>A inclusão é a oportunidade do olhar respeitoso e amoroso na sociedade. A beleza da humanidade está em sua diversidade. Incluir é criar espaços seguros para que todas as vozes sejam ouvidas. A inclusão acontece quando se aprende com as diferenças e não com as igualdades.</p> 
+        </div>           
     </div>   
 
   <main>   
   
 <section>
+<div class="link-info" id="info"></div>
     <div class="info">
         <br><br>
         <div class="interface">                
