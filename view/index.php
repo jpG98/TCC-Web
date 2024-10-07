@@ -43,7 +43,7 @@
     <div class="info">
         <br><br>
         <div class="interface">                
-            <h1>Mas o que é <br> acessibilidade?</h1>
+            <h1>Mas o que é acessibilidade?</h1>
             <br>
             <div class="flex">                    
                 <div class="img-info">
@@ -52,18 +52,13 @@
                 <div class="txt-container">
                     <div class="txt-info">
                         <p>
-                            A Universidade Federal do Ceará define a acessibilidade como: 
-                            “Promover acessibilidade é dar às pessoas com deficiência condições de uso dos espaços urbanos, dos serviços de transporte, dos meios de comunicação e informação, do sistema de educação, eliminando barreiras e garantindo a inclusão social daqueles que apresentam alguma condição de deficiência”.
-                            <br><br>Além disso, atualmente, no Brasil, existem leis que definem a falta de acessibilidade em espaços públicos como crime.
-                            <br>Mas o que isso tem a ver com você?
+                        A acessibilidade é a prática de garantir que ambientes, produtos, serviços e informações sejam acessíveis a todas as pessoas, independentemente de suas condições físicas, sensoriais, cognitivas ou intelectuais. O objetivo é eliminar barreiras e permitir que todos, incluindo pessoas com deficiência ou mobilidade reduzida, possam participar plenamente e de forma autônoma na sociedade.
                         </p>
                     </div>                
                 </div>
                     <div class="txt-info1">
                         <p>
-                            De acordo com uma pesquisa do Procon São Paulo, 92% dos entrevistados já [lorem ipsum lorem pisum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum, dado que fala que as pessoas veem as outras sofrendo].
-                            <br><br>Então, fica claro que, com a ajuda popular, é possível que a fiscalização seja melhor feita, já que é muito mais difícil ignorar um movimento popular de denúncia.
-                            <br><br>Se quiser entender melhor sobre as obrigações de cada entidade na construção de acessibilidade, leia as notícias abaixo:
+                        De acordo com uma pesquisa do Procon São Paulo, 92% dos entrevistados já testemunharam situações em que pessoas com deficiência enfrentaram dificuldades de acessibilidade, o que demonstra que o problema é amplamente percebido. Esse dado evidencia que a participação popular é fundamental para melhorar a fiscalização e garantir que os direitos sejam cumpridos. Quando há um movimento de denúncia por parte da população, torna-se muito mais difícil para autoridades e instituições ignorarem as violações de acessibilidade.
                         </p>
                     </div>
             </div>
@@ -79,69 +74,69 @@
             <h2>Matérias  <br> de acessibilidade</h2>
             <div class="flex2">
                 <!-- materias 1 -->
-                <div class="materias-box">
+                <div class="materias-box" onclick = "toggleText1()" >
                     <div class="materias">
                         <div class="materias-conteudo">
                             <div class="materias-info">
                               <h3>Acessibilidade <br> atitudinal</h3>
-                              <p>Diz respeito ao comportamento das pessoas sem preconceitos, estereótipos, estigmas e discriminações. Por exemplo: usar o termo “pessoa com deficiência”, e não “deficiente”; ao falar com uma pessoa com deficiência, dirigir-se diretamente a ela, e não ao seu acompanhante; não tratar a pessoa com deficiência como “coitadinho”.</p>
+                              <p id="acessibilidadeText1" style="display: none;">Diz respeito ao comportamento das pessoas sem preconceitos, estereótipos, estigmas e discriminações. Por exemplo: usar o termo “pessoa com deficiência”, e não “deficiente”; ao falar com uma pessoa com deficiência, dirigir-se diretamente a ela, e não ao seu acompanhante; não tratar a pessoa com deficiência como “coitadinho”.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
+    
                 <!-- materias 2 -->
-                <div class="materias-box">
+                <div class="materias-box"  onclick = "toggleText2()" > 
                     <div class="materias">
                         <div class="materias-conteudo">
                             <div class="materias-info">
-                            <h3>Acessibilidade arquitetônica</h3>
-                            <p>É promover a adequação de espaços e a extinção de barreiras físicas e ambientais dentro de residências, espaços públicos e privados, edificações e equipamentos urbanos. Exemplos: rampas, elevadores e banheiros adaptados, calçadas com piso tátil, etc.</p>
+                                <h3>Acessibilidade arquitetônica</h3>
+                                <p id="acessibilidadeText2" style="display: none;">É promover a adequação de espaços e a extinção de barreiras físicas e ambientais dentro de residências, espaços públicos e privados, edificações e equipamentos urbanos. Exemplos: rampas, elevadores e banheiros adaptados, calçadas com piso tátil, etc.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- materias 3 -->
-                <div class="materias-box">
+                <div class="materias-box"  onclick = "toggleText3()" >
                     <div class="materias">
                         <div class="materias-conteudo">
                             <div class="materias-info">
                             <h3>Acessibilidade nas comunicações</h3>
-                            <p>Diz respeito ao acesso à comunicação interpessoal (como língua de sinais), comunicação escrita em livros, apostilas, jornais, revistas e comunicação virtual. Exemplo: a presença de intérprete de Libras e a audiodescrição de imagens, sejam elas fotografias, filmes, peças de teatro ou eventos em geral.</p>
+                            <p id="acessibilidadeText3" style="display: none;">Diz respeito ao acesso à comunicação interpessoal (como língua de sinais), comunicação escrita em livros, apostilas, jornais, revistas e comunicação virtual. Exemplo: a presença de intérprete de Libras e a audiodescrição de imagens, sejam elas fotografias, filmes, peças de teatro ou eventos em geral.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- materias 4 -->
-                <div class="materias-box">
+                <div class="materias-box"  onclick = "toggleText4()" >
                     <div class="materias">
                         <div class="materias-conteudo">
                             <div class="materias-info">
                               <h3>Acessibilidade metodológica</h3>
-                              <p>É também conhecida como acessibilidade pedagógica e diz respeito à queda de barreiras nas metodologias de ensino. Exemplo: quando professores realizam trabalhos e atividades com o uso de recursos de acessibilidade para alunos com deficiência, como textos em braille ou textos ampliados. É também muito presente em ambientes corporativos, na análise dos postos de trabalho adequados aos profissionais com deficiência.</p>
+                              <p id="acessibilidadeText4" style="display: none;">É também conhecida como acessibilidade pedagógica e diz respeito à queda de barreiras nas metodologias de ensino. Exemplo: quando professores realizam trabalhos e atividades com o uso de recursos de acessibilidade para alunos com deficiência, como textos em braille ou textos ampliados. É também muito presente em ambientes corporativos, na análise dos postos de trabalho adequados aos profissionais com deficiência.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- materias 5 -->
-                <div class="materias-box">
+                <div class="materias-box"  onclick = "toggleText5()" >
                     <div class="materias">
                         <div class="materias-conteudo">
                             <div class="materias-info">
                             <h3>Acessibilidade instrumental</h3>
-                            <p>Visa superar barreiras em utensílios, instrumentos e ferramentas de estudo dentro das escolas e também em atividades profissionais, de recreação e lazer. Por exemplo,: quando uma pessoa cega tem acesso a um software de leitor de tela no computador.</p>
+                            <p id="acessibilidadeText5" style="display: none;">Visa superar barreiras em utensílios, instrumentos e ferramentas de estudo dentro das escolas e também em atividades profissionais, de recreação e lazer. Por exemplo,: quando uma pessoa cega tem acesso a um software de leitor de tela no computador.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- materias 6 -->
-                <div class="materias-box">
+                <div class="materias-box"  onclick = "toggleText6()" >
                     <div class="materias">
                         <div class="materias-conteudo">
                             <div class="materias-info">
                             <h3>Acessibilidade programática</h3>
-                            <p>Está relacionada às normas, leis e regimentos que respeitam e atendem as necessidades das pessoas com deficiência, e se necessário, utilizar adaptações razoáveis para incluir a todos. Um exemplo é a Lei nº 13.146/2015, conhecida como Lei Brasileira da Inclusão (LBI), ou a Convenção da ONU sobre Direitos da Pessoa com Deficiência.</p>
+                            <p id="acessibilidadeText6" style="display: none;">Está relacionada às normas, leis e regimentos que respeitam e atendem as necessidades das pessoas com deficiência, e se necessário, utilizar adaptações razoáveis para incluir a todos. Um exemplo é a Lei nº 13.146/2015, conhecida como Lei Brasileira da Inclusão (LBI), ou a Convenção da ONU sobre Direitos da Pessoa com Deficiência.</p>
                             </div>
                         </div>
                     </div>
@@ -149,6 +144,67 @@
             </div>
         </div>
     </div>
+
+<script>
+  function toggleText1() {
+    var text = document.getElementById("acessibilidadeText1");
+
+    if (text.style.display === "none") {
+      text.style.display = "block";
+    } else {
+      text.style.display = "none";
+    }
+  }
+
+  function toggleText2() {
+    var text = document.getElementById("acessibilidadeText2");
+
+    if (text.style.display === "none") {
+      text.style.display = "block";
+    } else {
+      text.style.display = "none";
+    }
+  }
+
+  function toggleText3() {
+    var text = document.getElementById("acessibilidadeText3");
+
+    if (text.style.display === "none") {
+      text.style.display = "block";
+    } else {
+      text.style.display = "none";
+    }
+  }
+
+  function toggleText4() {
+    var text = document.getElementById("acessibilidadeText4");
+
+    if (text.style.display === "none") {
+      text.style.display = "block";
+    } else {
+      text.style.display = "none";
+    }
+  }
+  function toggleText5() {
+    var text = document.getElementById("acessibilidadeText5");
+
+    if (text.style.display === "none") {
+      text.style.display = "block";
+    } else {
+      text.style.display = "none";
+    }
+  }
+  function toggleText6() {
+    var text = document.getElementById("acessibilidadeText6");
+
+    if (text.style.display === "none") {
+      text.style.display = "block";
+    } else {
+      text.style.display = "none";
+    }
+  }
+</script>
+
 </section>
 <br><br>
 
