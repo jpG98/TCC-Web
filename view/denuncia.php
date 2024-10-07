@@ -32,7 +32,7 @@
 
 <div class="funto">
     <div class="container mt-5">
-            <h2 class="text">Denúncias mais recentes</h2>
+        <h2 class="text">Denúncias mais recentes</h2>
         <div class="container mt-2 bg-white p-3 rounded">
             <table class="table table-bordered table-hover table-striped">
                 <thead>
@@ -45,9 +45,9 @@
                         <th class="text-center">Feedback</th>
                     </tr>
                 </thead>
-            <tbody>
-                <?php funcaoTabela();?>
-            </tbody>
+                <tbody>
+                    <?php funcaoTabela(); ?>
+                </tbody>
                 <tfoot>
                     <tr>
                         <td colspan="5" class="text-center"></td>
@@ -61,19 +61,19 @@
 <section>
     <div class="info">
         <br><br>
-        <div class="interface">                
+        <div class="interface">
             <h1>Como funciona as denuncias</h1>
             <br>
-            <div class="flex">                    
+            <div class="flex">
                 <div class="img-info">
-                    <img src="../componests/imagens/info-ex.png" alt="Imagem informativa">  
+                    <img src="../componests/imagens/info-ex.png" alt="Imagem informativa">
                 </div>
                 <div class="txt-container">
                     <div class="txt-info">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptatibus eveniet laboriosam vel dolores fugit amet recusandae! At ad dolor nesciunt sunt modi deleniti earum corporis voluptates eveniet? Nobis minus, ut veritatis quibusdam minima doloribus rerum quae tempora. Blanditiis nobis cumque, magnam provident labore expedita neque eaque obcaecati non unde quos assumenda ipsum, quidem nam eligendi repudiandae totam? Quibusdam eum officia reiciendis dolores, at recusandae quo! Molestias exercitationem eligendi voluptatibus velit praesentium voluptatum voluptate modi! Expedita, maxime eaque! Quod commodi aspernatur assumenda tenetur esse libero, veritatis excepturi, inventore illum facere amet iure ut. Repellat, cumque sit earum ut recusandae itaque.
                         </p>
-                    </div>                
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,11 +82,11 @@
 
 
 <footer>
-        <div class="footer-content">
-            <h3>ValeAcess</h3>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 all rights reserved.</p>
-        </div>
+    <div class="footer-content">
+        <h3>ValeAcess</h3>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 all rights reserved.</p>
+    </div>
 </footer>
 <?php include("blades/footer.php"); ?>
