@@ -22,7 +22,7 @@
             <div class="flex">
                 <div class="txt-ob">
                     <h1>O que é denunciável?</h1>
-                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim deserunt veritatis tempora doloribus voluptatem ab accusantium, rem est molestias cum unde molestiae alias? Ullam labore iure qui, laboriosam deleniti accusantium eos, provident omnis reiciendis dolores suscipit nobis maxime. Fuga cumque consequuntur neque ratione, molestias, nihil numquam ducimus amet labore minima, repellat perspiciatis atque tempora. Optio aperiam recusandae molestiae nam voluptatum nisi veniam earum? Repudiandae quaerat asperiores dolor vel assumenda aut consequatur
+                    <p> A falta de acessibilidade é denunciável quando ambientes, serviços ou produtos não garantem o acesso adequado para pessoas com deficiência ou mobilidade reduzida, conforme estabelecido por lei. No Brasil, a Lei Brasileira de Inclusão (LBI) (Lei nº 13.146/2015) é uma das principais normas que garante direitos à acessibilidade. Ela exige que espaços públicos e privados, transporte, serviços de comunicação, e tecnologias estejam acessíveis a todos. A Lei nº 10.098/2000, conhecida como Lei da Acessibilidade, também regula a adaptação de espaços e serviços para eliminar barreiras arquitetônicas, urbanísticas e de comunicação. Caso essas normas não sejam cumpridas, a falta de acessibilidade pode ser denunciada a órgãos competentes, como o Ministério Público e Defensorias Públicas.
                     </p>
                 </div>
             </div>

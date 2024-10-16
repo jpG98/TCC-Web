@@ -74,69 +74,36 @@
                 <h2>Matérias <br> de acessibilidade</h2>
                 <div class="flex2">
                     <!-- materias 1 -->
-                    <div class="materias-box" onclick="toggleText1()">
+                    <div class="materias-box">
                         <div class="materias">
                             <div class="materias-conteudo">
                                 <div class="materias-info">
                                     <h3>Acessibilidade <br> atitudinal</h3>
-                                    <p id="acessibilidadeText1" style="display: none;">Diz respeito ao comportamento das pessoas sem preconceitos, estereótipos, estigmas e discriminações. Por exemplo: usar o termo “pessoa com deficiência”, e não “deficiente”; ao falar com uma pessoa com deficiência, dirigir-se diretamente a ela, e não ao seu acompanhante; não tratar a pessoa com deficiência como “coitadinho”.</p>
+                                    <p>Diz respeito ao comportamento das pessoas sem preconceitos, estereótipos, estigmas e discriminações. Por exemplo: usar o termo “pessoa com deficiência”, e não “deficiente”; ao falar com uma pessoa com deficiência, dirigir-se diretamente a ela, e não ao seu acompanhante; não tratar a pessoa com deficiência como “coitadinho”.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- materias 2 -->
-                    <div class="materias-box" onclick="toggleText2()">
+                    <div class="materias-box">
                         <div class="materias">
                             <div class="materias-conteudo">
                                 <div class="materias-info">
                                     <h3>Acessibilidade arquitetônica</h3>
-                                    <p id="acessibilidadeText2" style="display: none;">É promover a adequação de espaços e a extinção de barreiras físicas e ambientais dentro de residências, espaços públicos e privados, edificações e equipamentos urbanos. Exemplos: rampas, elevadores e banheiros adaptados, calçadas com piso tátil, etc.</p>
+                                    <p>É promover a adequação de espaços e a extinção de barreiras físicas e ambientais dentro de residências, espaços públicos e privados, edificações e equipamentos urbanos. Exemplos: rampas, elevadores e banheiros adaptados, calçadas com piso tátil, etc.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- materias 3 -->
-                    <div class="materias-box" onclick="toggleText3()">
+                    <div class="materias-box">
                         <div class="materias">
                             <div class="materias-conteudo">
                                 <div class="materias-info">
                                     <h3>Acessibilidade nas comunicações</h3>
-                                    <p id="acessibilidadeText3" style="display: none;">Diz respeito ao acesso à comunicação interpessoal (como língua de sinais), comunicação escrita em livros, apostilas, jornais, revistas e comunicação virtual. Exemplo: a presença de intérprete de Libras e a audiodescrição de imagens, sejam elas fotografias, filmes, peças de teatro ou eventos em geral.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- materias 4 -->
-                    <div class="materias-box" onclick="toggleText4()">
-                        <div class="materias">
-                            <div class="materias-conteudo">
-                                <div class="materias-info">
-                                    <h3>Acessibilidade metodológica</h3>
-                                    <p id="acessibilidadeText4" style="display: none;">É também conhecida como acessibilidade pedagógica e diz respeito à queda de barreiras nas metodologias de ensino. Exemplo: quando professores realizam trabalhos e atividades com o uso de recursos de acessibilidade para alunos com deficiência, como textos em braille ou textos ampliados. É também muito presente em ambientes corporativos, na análise dos postos de trabalho adequados aos profissionais com deficiência.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- materias 5 -->
-                    <div class="materias-box" onclick="toggleText5()">
-                        <div class="materias">
-                            <div class="materias-conteudo">
-                                <div class="materias-info">
-                                    <h3>Acessibilidade instrumental</h3>
-                                    <p id="acessibilidadeText5" style="display: none;">Visa superar barreiras em utensílios, instrumentos e ferramentas de estudo dentro das escolas e também em atividades profissionais, de recreação e lazer. Por exemplo,: quando uma pessoa cega tem acesso a um software de leitor de tela no computador.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- materias 6 -->
-                    <div class="materias-box" onclick="toggleText6()">
-                        <div class="materias">
-                            <div class="materias-conteudo">
-                                <div class="materias-info">
-                                    <h3>Acessibilidade programática</h3>
-                                    <p id="acessibilidadeText6" style="display: none;">Está relacionada às normas, leis e regimentos que respeitam e atendem as necessidades das pessoas com deficiência, e se necessário, utilizar adaptações razoáveis para incluir a todos. Um exemplo é a Lei nº 13.146/2015, conhecida como Lei Brasileira da Inclusão (LBI), ou a Convenção da ONU sobre Direitos da Pessoa com Deficiência.</p>
+                                    <p>Diz respeito ao acesso à comunicação interpessoal (como língua de sinais), comunicação escrita em livros, apostilas, jornais, revistas e comunicação virtual. Exemplo: a presença de intérprete de Libras e a audiodescrição de imagens, sejam elas fotografias, filmes, peças de teatro ou eventos em geral.</p>
                                 </div>
                             </div>
                         </div>
@@ -144,68 +111,6 @@
                 </div>
             </div>
         </div>
-
-        <script>
-            function toggleText1() {
-                var text = document.getElementById("acessibilidadeText1");
-
-                if (text.style.display === "none") {
-                    text.style.display = "block";
-                } else {
-                    text.style.display = "none";
-                }
-            }
-
-            function toggleText2() {
-                var text = document.getElementById("acessibilidadeText2");
-
-                if (text.style.display === "none") {
-                    text.style.display = "block";
-                } else {
-                    text.style.display = "none";
-                }
-            }
-
-            function toggleText3() {
-                var text = document.getElementById("acessibilidadeText3");
-
-                if (text.style.display === "none") {
-                    text.style.display = "block";
-                } else {
-                    text.style.display = "none";
-                }
-            }
-
-            function toggleText4() {
-                var text = document.getElementById("acessibilidadeText4");
-
-                if (text.style.display === "none") {
-                    text.style.display = "block";
-                } else {
-                    text.style.display = "none";
-                }
-            }
-
-            function toggleText5() {
-                var text = document.getElementById("acessibilidadeText5");
-
-                if (text.style.display === "none") {
-                    text.style.display = "block";
-                } else {
-                    text.style.display = "none";
-                }
-            }
-
-            function toggleText6() {
-                var text = document.getElementById("acessibilidadeText6");
-
-                if (text.style.display === "none") {
-                    text.style.display = "block";
-                } else {
-                    text.style.display = "none";
-                }
-            }
-        </script>
 
     </section>
     <br><br>
@@ -218,7 +123,7 @@
                 <div class="txt-sobrenos">
                     <h1>Sobre nós</h1>
                     <p>
-                        Lorem Ipsum sit dolor amet amet Lorem Ipsum sit dolor amet Lorem Ipsum sit dolor amet amet Lorem Ipsum sit dolor amet Lorem Ipsum sit dolor amet amet Lorem Ipsum sit dolor amet Lorem Ipsum sit dolor amet amet Lorem Ipsum sit dolor amet Lorem Ipsum sit dolor amet amet Lorem Ipsum sit dolor amet Lorem Ipsum sit dolor amet amet Lorem Ipsum sit dolor amet Lorem Ipsum sit dolor amet amet Lorem Ipsum sit dolor amet Lorem Ipsum sit dolor amet amet Lorem Ipsum sit dolor amet Lorem Ipsum sit dolor amet amet Lorem Ipsum sit dolor amet
+                    O ValeAcess tem como objetivo disseminar informação sobre acessibilidade no Vale do Ribeira e dar meios para que as pessoas possam moldar o ambiente ao seu redor. Através de um aplicativo móvel, os usuários podem fazer avaliações sobre os comércios e prédios públicos que visitam, e, em caso de infração, denunciar esse local.
                     </p>
                 </div>
                 <div class="img-sobrenos">
@@ -236,7 +141,7 @@
                 <div class="flex">
                     <div class="txt-ob">
                         <h1>Objetivo do Projeto</h1>
-                        <p> Através do aplicativo móvel, os usuários poderão denunciar os lugares cadastrados onde eles encontrarem alguma irregularidade. Abaixo, você pode checar uma lista dos últimos comércios que foram denunciados.
+                        <p> O objetivo do projeto é desenvolver um sistema, utilizando um aplicativo móvel, uma interface de computador e um site que auxiliem no processo de denunciar a falta de acessibilidade e corrigi-la. Assim, o usuário denunciará os locais que frequentar e que não seguirem as leis de arquitetura regentes no Brasil, e, desse modo, esses mesmos locais poderão avaliar suas falhas para corrigi-las.
                         </p>
                     </div>
                 </div>
