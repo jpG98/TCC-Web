@@ -42,6 +42,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5px 20px;
 }
 
 /* Logo */
@@ -143,13 +144,13 @@ header {
     flex-direction: column;
     background-color: #f3fbff;
     position: absolute;
-    top: 100%;
+    top: 80px;
     right: 0;
     width: 100%;
     display: none;
     text-align: center;
+    padding-left: 20px;
   }
-
   .menu ul li {
     margin: 10px 0;
   }
@@ -160,6 +161,15 @@ header {
 
   .navigation {
     justify-content: space-between;
+  }
+
+  .dropdown-content {
+    position: relative;
+  }
+
+  /* Ocultar o conteúdo do dropdown ao abrir o menu no celular */
+  .dropdown:hover .dropdown-content {
+    display: none;
   }
 }
 
@@ -176,7 +186,6 @@ header {
     display: block;
   }
 }
-
 .banner {
   position: relative;
   width: 100%;
@@ -288,7 +297,7 @@ section.sobrenos .flex {
 
 .link-info {
   position: absolute;
-  margin-top: -40px;
+  margin-top: -90px;
 }
 
 .info {
@@ -368,13 +377,13 @@ section.sobrenos .flex {
 
 .link-materias {
   position: absolute;
-  margin-top: -90px;
+  margin-top: -100px;
 }
 
 .materias-box {
   background-color: #a6cfe4;
   width: 332px;
-  height: 340px;
+  height: 410px;
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -590,7 +599,7 @@ section .app .flex {
 }
 
 .app .txt-app p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   margin-bottom: 20px;
   text-align: justify;
@@ -731,6 +740,118 @@ h3 {
   .integrantes-box {
     width: 100%;
     max-width: 300px;
+  }
+}
+
+/*objetivo projeto*/
+
+.link-denun{
+  position: absolute;
+  margin-top: -90px;
+}
+
+.denuncia {
+  margin-top: 90px;
+  padding: 10px;
+  background-color: #c3dae8;
+  width: 100%;
+  height: 350px;
+}
+
+.denuncia .txt-ob {
+  margin-top: 20px;
+}
+
+.denuncia .txt-ob h1 {
+  font-size: 2.6rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.denuncia .txt-ob p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.funto {
+  margin-top: 0px;
+  padding: 20px;
+  background-color: #ececec;
+}
+
+/*info*/
+
+.info {
+  margin-top: 0px;
+  padding: 20px;
+  background-color: #ececec;
+}
+
+.info .flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; /* Alinhar o conteúdo ao topo */
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.img-info img {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  width: 450px;
+}
+
+.txt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  flex: 1;
+}
+
+.txt-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.info h1 {
+  font-size: 2.6rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info .txt-info p {
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.info .txt-info1 p {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .info .flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .info h1 {
+    font-size: 2rem;
+  }
+
+  .info .txt-info p {
+    font-size: 1.2rem;
+  }
+
+  .img-info img {
+    width: 100%;
   }
 }
 
