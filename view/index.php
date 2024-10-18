@@ -41,10 +41,8 @@
     <section>
         <div class="link-info" id="info"></div>
         <div class="info">
-            <br><br>
             <div class="interface">
                 <h1>Mas o que é acessibilidade?</h1>
-                <br>
                 <div class="flex">
                     <div class="img-info">
                         <img src="../componests/imagens/info-ex.png" alt="Imagem informativa">
@@ -65,7 +63,6 @@
             </div>
         </div>
     </section>
-    <br>
 
     <section>
         <div class="link-materias" id="materias"></div>
@@ -114,7 +111,6 @@
 
     </section>
     <br><br>
-
     <section class="sobrenos">
         <div class="link-sobrenos" id="sobrenos"></div>
         <br>
@@ -131,7 +127,6 @@
                 </div>
             </div>
         </div>
-        <br>
     </section>
 
     <section>

@@ -14,7 +14,6 @@
         </nav>
     </div>
 </header>
-<br><br><br><br>
 
 <section>
     <div class="denuncia" id="obproj">
