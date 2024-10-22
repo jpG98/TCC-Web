@@ -56,7 +56,7 @@
                 <h1>Mas o que é acessibilidade?</h1>
                 <div class="flex">
                     <div class="img-info">
-                        <img src="../componests/imagens/info-ex.png" alt="Imagem informativa">
+                        <img src="../componests/imagens/acessibilidade-na-hotelaria-6.png" alt="Imagem informativa">
                     </div>
                     <div class="txt-container">
                         <div class="txt-info">
