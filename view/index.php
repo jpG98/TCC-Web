@@ -67,7 +67,7 @@
                     </div>
                     <div class="txt-info1">
                         <p>
-                            De acordo com uma pesquisa do Procon São Paulo, 92% dos entrevistados já testemunharam situações em que pessoas com deficiência enfrentaram dificuldades de acessibilidade, o que demonstra que o problema é amplamente percebido. Esse dado evidencia que a participação popular é fundamental para melhorar a fiscalização e garantir que os direitos sejam cumpridos. Quando há um movimento de denúncia por parte da população, torna-se muito mais difícil para autoridades e instituições ignorarem as violações de acessibilidade.
+                            De acordo com uma pesquisa do Procon São Paulo, 92% dos entrevistados já testemunharam situações em qu e pessoas com deficiência enfrentaram dificuldades de acessibilidade, o que demonstra que o problema é amplamente percebido. Esse dado evidencia que a participação popular é fundamental para melhorar a fiscalização e garantir que os direitos sejam cumpridos. Quando há um movimento de denúncia por parte da população, torna-se muito mais difícil para autoridades e instituições ignorarem as violações de acessibilidade.
                         </p>
                     </div>
                 </div>
