@@ -134,7 +134,7 @@
                     </p>
                 </div>
                 <div class="img-sobrenos">
-                    <img src="../componests/imagens/img-da-logo.png" alt="Logo do projeto">
+                    <img src="../componests/imagens/Acessibilidade-2.webp" alt="Logo do projeto">
                 </div>
             </div>
         </div>
@@ -210,8 +210,11 @@
             </div>
         </div>
     </section>
+
     <section>
-        <div class="Integrantes" id="integrantes">
+        <BR></BR>
+        <div class="link-inter" id="integrantes"></div>
+        <div class="Integrantes">
             <div class="interface">
                 <h2>Integrantes</h2>
                 <div class="flex1">
@@ -325,22 +328,24 @@
             </table>
         </div>
     </div>
+    <br><br>
 </div>
 
+
 <section>
-    <div class="info">
+    <div class="denun">
         <br><br>
         <div class="interface">
             <h1>Como funciona as denuncias</h1>
-            <br>
             <div class="flex">
-                <div class="img-info">
-                    <img src="../componests/imagens/info-ex.png" alt="Imagem informativa">
+                <div class="img-denun">
+                    <img src="../componests/imagens/denuncia.png" alt="Imagem denunmativa">
                 </div>
                 <div class="txt-container">
-                    <div class="txt-info">
+                    <div class="txt-denun">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptatibus eveniet laboriosam vel dolores fugit amet recusandae! At ad dolor nesciunt sunt modi deleniti earum corporis voluptates eveniet? Nobis minus, ut veritatis quibusdam minima doloribus rerum quae tempora. Blanditiis nobis cumque, magnam provident labore expedita neque eaque obcaecati non unde quos assumenda ipsum, quidem nam eligendi repudiandae totam? Quibusdam eum officia reiciendis dolores, at recusandae quo! Molestias exercitationem eligendi voluptatibus velit praesentium voluptatum voluptate modi! Expedita, maxime eaque! Quod commodi aspernatur assumenda tenetur esse libero, veritatis excepturi, inventore illum facere amet iure ut. Repellat, cumque sit earum ut recusandae itaque.
+                        As denúncias funcionam da seguinte forma: Você acessa o aplicativo móvel e, assim que você entra na tela de um dos comércios, você tem a opção de avaliar ou denunciar.
+                        Ao clicar no denunciar, você será levado a uma tela onde você deve dar nota aos requisitos de acessibilidade e então anexar uma imagem que prove que sua denúncia é real.
                         </p>
                     </div>
                 </div>

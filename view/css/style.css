@@ -272,8 +272,10 @@ section.sobrenos .flex {
 .img-sobrenos img {
   width: 100%;
   margin-left: 200px;
-  max-width: 350px;
+  max-width: 400px;
   object-fit: cover;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
@@ -377,7 +379,7 @@ section.sobrenos .flex {
 
 .link-materias {
   position: absolute;
-  margin-top: -100px;
+  margin-top: -110px;
 }
 
 .materias-box {
@@ -639,10 +641,15 @@ section .app .flex {
 
 /*integrantes*/
 
+.link-inter{
+  position: absolute;
+  margin-top: -120px;
+}
+
 .integrantes {
   margin-top: 20px;
   background-color: #e6eef2;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .interface {
@@ -776,82 +783,71 @@ h3 {
 .funto {
   margin-top: 0px;
   padding: 20px;
-  background-color: #ececec;
+  background-color: #dee4e7;
 }
 
-/*info*/
+/*denun*/
 
-.info {
+.denun {
   margin-top: 0px;
   padding: 20px;
-  background-color: #ececec;
+  background-color: #c3dae8;
 }
 
-.info .flex {
+.denun .flex {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start; /* Alinhar o conteúdo ao topo */
-  justify-content: space-between;
+  align-items: center; /* Alinhar verticalmente ao centro */
+  justify-content: center; /* Centralizar a imagem e o texto horizontalmente */
   gap: 50px;
   max-width: 1280px;
   margin: 0 auto;
 }
 
-.img-info img {
-  border-radius: 20px;
+.img-denun img {
+  border-radius: 50%; /* Tornar a imagem circular */
   max-width: 100%;
   height: auto;
   object-fit: cover;
-  width: 450px;
+  width: 250px;
+  height: 250px; /* Certificar que a imagem seja um círculo perfeito */
 }
 
-.txt-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 20px;
-  flex: 1;
-}
-
-.txt-info {
+.txt-denun {
   flex: 1;
   min-width: 300px;
 }
 
-.info h1 {
+.denun h1 {
   font-size: 2.6rem;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
-.info .txt-info p {
+.denun .txt-denun p {
   font-size: 1.5rem;
   text-align: justify;
   margin-bottom: 20px;
   line-height: 1.4;
 }
 
-.info .txt-info1 p {
-  font-size: 1.6rem;
-  text-align: justify;
-}
-
 @media (max-width: 768px) {
-  .info .flex {
+  .denun .flex {
     flex-direction: column;
     gap: 30px;
   }
 
-  .info h1 {
+  .denun h1 {
     font-size: 2rem;
   }
 
-  .info .txt-info p {
+  .denun .txt-denun p {
     font-size: 1.2rem;
   }
 
-  .img-info img {
+  .img-denun img {
     width: 100%;
+    height: auto; /* Permitir que a altura seja ajustada dinamicamente em telas menores */
   }
 }
 
